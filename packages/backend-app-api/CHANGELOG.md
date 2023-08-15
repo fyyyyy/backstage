@@ -1,5 +1,30 @@
 # @backstage/backend-app-api
 
+## 0.5.0
+
+### Minor Changes
+
+- b9c57a4f857e: **BREAKING**: Renamed `configServiceFactory` to `rootConfigServiceFactory`.
+
+### Patch Changes
+
+- e65c4896f755: Do not throw in backend.stop, if start failed
+- c7aa4ff1793c: Allow modules to register extension points.
+- 57a10c6c69cc: Add validation to make sure that extension points do not cross plugin boundaries.
+- cc9256a33bcc: Added new experimental `featureDiscoveryServiceFactory`, available as an `/alpha` export.
+- Updated dependencies
+  - @backstage/backend-common@0.19.2
+  - @backstage/config-loader@1.4.0
+  - @backstage/backend-plugin-api@0.6.0
+  - @backstage/cli-node@0.1.3
+  - @backstage/plugin-auth-node@0.2.17
+  - @backstage/backend-tasks@0.5.5
+  - @backstage/plugin-permission-node@0.7.11
+  - @backstage/cli-common@0.1.12
+  - @backstage/config@1.0.8
+  - @backstage/errors@1.2.1
+  - @backstage/types@1.1.0
+
 ## 0.5.0-next.2
 
 ### Patch Changes

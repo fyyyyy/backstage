@@ -1,5 +1,16 @@
 # @backstage/repo-tools
 
+## 0.3.3
+
+### Patch Changes
+
+- 75702e85862a: Bumped `@microsoft/api-extractor` dependency to `^7.36.4`, and `@microsoft/api-documenter` to `^7.22.33`.
+- ebeb77586975: Update `schema openapi generate` command to now create a default router that can be imported and used directly.
+- Updated dependencies
+  - @backstage/cli-node@0.1.3
+  - @backstage/cli-common@0.1.12
+  - @backstage/errors@1.2.1
+
 ## 0.3.3-next.1
 
 ### Patch Changes

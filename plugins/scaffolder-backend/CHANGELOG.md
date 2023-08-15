@@ -1,5 +1,38 @@
 # @backstage/plugin-scaffolder-backend
 
+## 1.16.0
+
+### Minor Changes
+
+- e514aac3eac0: Introduce `each` property on action steps, allowing them to be ran repeatedly.
+
+### Patch Changes
+
+- 629cbd194a87: Use `coreServices.rootConfig` instead of `coreService.config`
+- 33c76caef72a: Added examples for the `fs:delete` and `fs:rename` actions
+- 0b1d775be05b: Adds examples to a few scaffolder actions.
+- 0f873325068d: Add examples for `github:repo:create` and `github:repo:push` scaffolder actions.
+- 5c28ebc79fd6: Updated dependency `esbuild` to `^0.19.0`.
+- d3b31a791eb1: Deprecated `executeShellCommand`, `RunCommandOptions`, and `fetchContents` from `@backstage/plugin-scaffolder-backend`, since they are useful for Scaffolder modules (who should not be importing from the plugin package itself). You should now import these from `@backstage/plugin-scaffolder-backend-node` instead. `RunCommandOptions` was renamed in the Node package as `ExecuteShellCommandOptions`, for consistency.
+- Updated dependencies
+  - @backstage/backend-common@0.19.2
+  - @backstage/plugin-catalog-backend@1.12.0
+  - @backstage/backend-plugin-api@0.6.0
+  - @backstage/plugin-scaffolder-node@0.2.0
+  - @backstage/plugin-catalog-node@1.4.1
+  - @backstage/plugin-auth-node@0.2.17
+  - @backstage/integration@1.6.0
+  - @backstage/backend-tasks@0.5.5
+  - @backstage/plugin-scaffolder-common@1.4.0
+  - @backstage/plugin-permission-node@0.7.11
+  - @backstage/catalog-client@1.4.3
+  - @backstage/catalog-model@1.4.1
+  - @backstage/config@1.0.8
+  - @backstage/errors@1.2.1
+  - @backstage/types@1.1.0
+  - @backstage/plugin-catalog-common@1.0.15
+  - @backstage/plugin-permission-common@0.7.7
+
 ## 1.15.2-next.2
 
 ### Patch Changes
